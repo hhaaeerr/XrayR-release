@@ -17,7 +17,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://dxmax.top/"
       ApiKey: "ULrlEEvAidPRl1bS"
-      NodeID: "nodeid" #节点ID
+      NodeID: nodeid #节点ID
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type

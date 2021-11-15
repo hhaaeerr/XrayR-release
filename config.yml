@@ -17,8 +17,8 @@ Nodes:
     ApiConfig:
       ApiHost: "https://mianmd.ninja/"
       ApiKey: "miiiianmiiiianmiiiian"
-      NodeID: 0
-      NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
+      NodeID: nodeid #节点ID
+      NodeType: nodetype # 节点类型 V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
       EnableXTLS: false # Enable XTLS for V2ray and Trojan

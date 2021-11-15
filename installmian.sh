@@ -10,7 +10,7 @@ echo "\
 XRAYR后端偷懒脚本
 ############################################################
 "
-    wget --no-cache -N -P /etc/XrayR https://raw.githubusercontent.com/hhaaeerr/XrayR-release/master/config/config.yml >/dev/null 2>&1
+    wget --no-cache -N -P /etc/XrayR https://raw.githubusercontent.com/hhaaeerr/XrayR-release/master/config.yml >/dev/null 2>&1
         echo "节点ID" &&
             read -ep "请输入当前节点的面板ID: " nodeid &&
             read -ep "请确认节点类型(1代表V2ray 2代表Shadowsocks 默认回车为V2ray） " nodetype
